@@ -12,6 +12,10 @@
       <CompositionApi exampleProp="wando"/>
     </div>
 
+    <div v-else-if="topic === 'Pinia'">
+      <pinia-api />
+    </div>
+
     <div v-else>
       작성 예정
     </div>
@@ -22,8 +26,10 @@
 <script setup>
 
 import { useRoute } from "vue-router/dist/vue-router";
-import CompositionApi from "./composition/CompositionApi.vue"
 import { provide, reactive, readonly, ref } from "vue";
+
+import CompositionApi from "./composition/CompositionApi.vue"
+import PiniaApi from "./pinia/PiniaApi.vue"
 
 const route = useRoute();
 const topic = route.params.topic;

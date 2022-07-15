@@ -15,6 +15,7 @@ import StudyItem from "../components/study/StudyItem.vue";
 const topics = [
     "Start-Project",
     "Composition-Api",
+    "Pinia"
 ]
 
 </script>
