@@ -1,7 +1,7 @@
 <template>
   <div class="study" >
     <h1>목차</h1>
-    <ul >
+    <ul>
       <li v-for="topic of topics" :key="topic">
         <StudyItem :topic="topic" />
       </li>

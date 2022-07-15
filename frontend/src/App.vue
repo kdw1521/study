@@ -21,6 +21,12 @@ import HelloWorld from "./components/HelloWorld.vue";
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/study">Study</RouterLink>
       </nav>
+
+      <div>
+        docs: <a href="https://vuejs.org/guide/introduction.html">Official Document</a> <br>
+        docs(kr): <a href="https://v3.ko.vuejs.org/guide/introduction.html">Official Document(kr)</a> <br>
+        github: <a href="https://github.com/kdw1521/study">Study Source</a>
+      </div>
     </div>
   </header>
 
